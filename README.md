@@ -2,7 +2,7 @@
 
 This project implements an ordering system for an ice cream parlor, utilizing various Design Patterns to ensure modular, extensible, and easily maintainable code. The goal is to optimize the order flow, from creating and customizing ice cream to managing discounts and tracking order status.
 
-🎯 Project Objective
+## 🎯 Project Objective
 
 To create a robust system for managing ice cream orders, allowing for:
 
@@ -12,7 +12,7 @@ To create a robust system for managing ice cream orders, allowing for:
 - **Tracking:** Automatic customer notification regarding order status.
 - **Optimization:** Efficient management of the order queue.
 
-# 🔹 Applied Design Patterns
+## 🔹 Applied Design Patterns
 
 The project was developed with the application of the following GoF (Gang of Four) Design Patterns:
 
@@ -44,17 +44,17 @@ The project was developed with the application of the following GoF (Gang of Fou
   - **Purpose:** Separates domain logic from data access logic, providing an in-memory collection of domain objects.
   - **Application:** The `OrderRepository` acts as a persistence layer to save and retrieve orders and, in the future, customer history.
 
-# 🚀 How to Run the Project
+## 🚀 How to Run the Project
 
-1. Prerequisites: Make sure you have Java Development Kit (JDK) 8 or higher installed on your machine.
-2. Clone the Repository: (Assuming the project is in a repository)
+1. **Prerequisites:** Make sure you have Java Development Kit (JDK) 8 or higher installed on your machine.
+2. **Clone the Repository:** (Assuming the project is in a repository)
  ```
 git clone https://github.com/0xJotave/IceCreamSystem
 cd IceCreamSystem
  ```
-3. Project Structure: The code is organized into Java packages for better modularity (e.g., `model`, `service`, `repository`, `observer`).
+3. **Project Structure:** The code is organized into Java packages for better modularity (e.g., `model`, `service`, `repository`, `observer`).
 
-3. Compilation and Execution:
+3. **Compilation and Execution:**
 
 - Via IDE (IntelliJ IDEA, Eclipse, VS Code): Import the project as a Maven or Gradle project (if configured) or as a simple Java project. Run the `Main` class located in `src/org/icecream/app/Main.java`
 - Via Terminal (without IDE):
